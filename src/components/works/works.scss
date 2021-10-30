@@ -1,3 +1,96 @@
 .works{
-    background-color: mediumvioletred;
+    background-color: mediumvioletred;    
+    display: flex;
+    align-content: center;
+    flex-direction: row;
 }
+h1{
+    color: white;
+}
+p{
+    color: white;
+    font-size: 170%;
+
+}
+.text{
+    opacity: 90%;
+    background-color: mediumvioletred;    
+    height: 100%;
+    width: 500px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+}
+
+.slides{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    .buttons{
+        height: 100%;
+        width: 75.4%;
+        z-index: 1;
+        display: flex;
+        position: absolute;
+        top: 150%;
+        justify-content: space-between;
+        
+        .button{
+            transition: ease 0.5s;
+            margin-inline: 2%;
+            background-color: rgb(214, 39, 214);
+            border:none;
+            height: 5%;
+            width: 3%;
+            border-radius: 10%;
+            color: white;
+            font-size: 170%;
+            overflow-y: hidden;
+            padding: 0px 0px;
+        }
+        .button:hover{
+            transition: ease 0.5s;
+            background-color: rgb(182, 31, 182);
+        }
+        
+    }
+    img{
+        width: fit-content;
+    }
+}
+
+@media only screen and (max-width: 1600px){
+    .slides{
+        .buttons{
+            width: 73.5%;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .works{
+        flex-direction: column;
+    }
+    .text{
+        height: 60%;
+    }
+    h1{
+        font-size: 250%;
+    }
+    p {
+      font-size: 150%;
+    }
+    .text{
+        width: fit-content;
+        justify-content: start;
+    }
+    .slides{
+        .buttons{
+            align-content: center;
+            width: 100%;
+            height: 10%;
+        }
+    }
+  }

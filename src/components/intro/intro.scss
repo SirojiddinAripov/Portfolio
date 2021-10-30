@@ -1,3 +1,59 @@
 .intro{
     background-color: lightcyan;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.main{
+    max-width: 1000px;
+}
+h1{
+    font-size: 50px;
+    word-break: break-all;
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 100%;
+}
+.row,
+.row > .column {
+    padding: 8px;
+}
+.column{
+    float:left;
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+//???
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content{
+    transition: all 0.5s transform;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px grey;
+}
+
+.content:hover{
+    transition: all 0.5s transform;
+    box-shadow: 0 0 10px grey;
+}
+@media screen and (max-width: 900px){
+    .column{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .column{
+        width: 100%;
+    }
 }

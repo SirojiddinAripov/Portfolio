@@ -16,6 +16,13 @@
             width: 100vw;
             height: calc(100vh - 100px);
             scroll-snap-align: start;
+            box-sizing: border-box;
         }
     }
+    .disable-select {
+        -webkit-user-select: none;  
+        -moz-user-select: none;    
+        -ms-user-select: none;      
+        user-select: none;
+      }
 }
