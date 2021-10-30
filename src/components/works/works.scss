@@ -73,6 +73,7 @@ p{
         }
     }
     img{
+        transition: all .3s ease-in-out;
         width: fit-content;
     }
 }
