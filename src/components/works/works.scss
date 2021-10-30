@@ -3,6 +3,7 @@
     display: flex;
     align-content: center;
     flex-direction: row;
+    user-select: none;
 }
 h1{
     color: white;
@@ -13,7 +14,6 @@ p{
 
 }
 .text{
-    opacity: 90%;
     background-color: mediumvioletred;    
     height: 100%;
     width: 500px;
@@ -34,27 +34,43 @@ p{
         z-index: 1;
         display: flex;
         position: absolute;
-        top: 150%;
+        align-items: center;
+        z-index: 2;
         justify-content: space-between;
-        
         .button{
             transition: ease 0.5s;
+            line-height: 110%;
+            text-align: center;
+            font-size: 200%;
+
+            display: inline-block; 
             margin-inline: 2%;
-            background-color: rgb(214, 39, 214);
+            padding: 0px 0px;
+            
             border:none;
             height: 5%;
             width: 3%;
-            border-radius: 10%;
-            color: white;
-            font-size: 170%;
+            
             overflow-y: hidden;
-            padding: 0px 0px;
+            
+            border-radius: 10%;
+            background-color: rgb(214, 39, 214);
+            color: white;
         }
         .button:hover{
-            transition: ease 0.5s;
+            transition: ease 0.1s;
             background-color: rgb(182, 31, 182);
+            
         }
-        
+        .left:hover{
+            transform: translateX(-15%);
+        }
+        .right{
+            z-index: 3;
+        }
+        .right:hover{
+            transform: translateX(15%);
+        }
     }
     img{
         width: fit-content;

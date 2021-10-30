@@ -15,8 +15,8 @@ export default function Works() {
           <div className="slides">
               <img src={fall} alt="" />
                 <div className="buttons">
-                    <button className="button" style={{float: "left",}}>⮜</button>
-                    <button className="button" style={{float: "right",}}>R</button>
+                    <button className="button left" style={{float: "left",}} onClick={()=> console.log("left")}>⮜</button>
+                    <button className="button right" style={{float: "right",}} onClick={()=> console.log("right")}>⮞</button>
                 </div>
             </div>
         </div>
