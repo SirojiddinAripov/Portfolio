@@ -1,4 +1,5 @@
 .testimonials{
+    background-color: white;
     display: flex;
     align-content: center;
     flex-direction: row;
@@ -27,6 +28,8 @@ p{
     display: flex;
     flex-direction: row;
     height: 100%;
+    z-index: 2;
+
     .buttons3{
         height: 100%;
         width: 75.4%;
@@ -71,11 +74,13 @@ p{
             transform: translateX(15%);
         }
     }
-    img{
-        width: fit-content;
-    }
+    
 }
-
+img{
+    z-index: 1;
+    transition: all 0.2s ease-in-out;
+    width: fit-content;
+}
 @media only screen and (max-width: 1600px){
     .slides3{
         .buttons3{

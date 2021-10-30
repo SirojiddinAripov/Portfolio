@@ -1,5 +1,5 @@
 .works{
-    background-color: mediumvioletred;    
+    background-color: rgb(255, 255, 255);    
     display: flex;
     align-content: center;
     flex-direction: row;
@@ -28,17 +28,18 @@ p{
     display: flex;
     flex-direction: row;
     height: 100%;
+
     .buttons{
         height: 100%;
-        width: 75.4%;
+        width: 73.8%;
         z-index: 1;
         display: flex;
         position: absolute;
         align-items: center;
-        z-index: 2;
+        z-index: 4;
         justify-content: space-between;
         .button{
-            transition: ease 0.5s;
+            transition: all 0.3s ease;
             line-height: 110%;
             text-align: center;
             font-size: 200%;
@@ -58,7 +59,7 @@ p{
             color: white;
         }
         .button:hover{
-            transition: ease 0.1s;
+            transition: all 0.1s ease;
             background-color: rgb(182, 31, 182);
             
         }
@@ -66,14 +67,15 @@ p{
             transform: translateX(-15%);
         }
         .right{
-            z-index: 3;
+            z-index: 5;
         }
         .right:hover{
             transform: translateX(15%);
         }
     }
     img{
-        transition: all .3s ease-in-out;
+        z-index: 1;
+        transition: all 0.2s ease-in-out;
         width: fit-content;
     }
 }
