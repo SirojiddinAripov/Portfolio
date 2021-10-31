@@ -1,13 +1,23 @@
 .intro{
-    background-color: lightcyan;
     padding: 20px;
     margin: auto;
     display: flex;
     flex-direction: column;
     align-content: center;
+    background-image: url("../../images/intro-background.png");
+    background-size: cover;
 }
 .main{
-    max-width: 1000px;
+    max-width: 900px;
+}
+h4{
+    position: absolute;
+    display: flex;
+    top: 97%;
+    left: -3%;
+    color: white;
+    justify-content: start;
+    margin-left: 5%;
 }
 h1{
     font-size: 50px;
@@ -22,11 +32,20 @@ img{
 .row > .column {
     padding: 8px;
 }
+.row{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    width: 100%;
+}
 .column{
     float:left;
-    width: 25%;
+    width: 100%;
     display: flex;
     align-items: center;
+    flex-direction: row;
+    overflow-y: hidden;
+
 }
 //???
 .row:after{
@@ -39,8 +58,9 @@ img{
     transition: all 0.5s transform;
     background-color: white;
     padding: 10px;
-    border-radius: 10px;
     box-shadow: 0 0 5px grey;
+    width:90%;
+    cursor: pointer;
 }
 
 .content:hover{
