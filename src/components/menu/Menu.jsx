@@ -14,7 +14,7 @@ export default function Menu({ menuOpen, setMenuOpen }) {
                     <a href="#intro">Home</a>
                 </li>
                 <li>
-                    <a href="#JavaScript">Java Script</a>
+                    <a href="#JavaScript">JavaScript</a>
                 </li>
                 <li>
                     <a href="#testimonials">Python</a>
