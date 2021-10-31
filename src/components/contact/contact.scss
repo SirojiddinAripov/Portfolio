@@ -12,6 +12,7 @@
         display: flex;
         position: absolute;
         align-items: center;
+        justify-content: center;
         z-index: 4;
         justify-content: space-between;
         .button4{
@@ -53,6 +54,9 @@
     img{
         z-index: 1;
         transition: all 0.2s ease-in-out;
-        width: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        width: 150%;
     }
 }

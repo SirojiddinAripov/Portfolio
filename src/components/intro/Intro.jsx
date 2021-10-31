@@ -27,7 +27,7 @@ export default function Intro() {
                 </div>
 
                 <div className="column">
-                    <div className="content">
+                    <div className="content" onClick={() => window.location.href = "#JavaScript6"} >
                         <img src={zombie} alt="zombie" style={{width: "100%"}}/>
                         <h3>Arduino - Hanging Zombie</h3>
                     </div>
@@ -51,7 +51,7 @@ export default function Intro() {
                 </div>
 
                 <div className="column">
-                    <div className="content">
+                    <div className="content" onClick={() => window.location.href = "#JavaScript7"} >
                         <img src={scorpo} alt="scorpo" style={{width: "100%"}}/>
                         <h3>Arduino - Party Bot!</h3>
                     </div>
