@@ -12,10 +12,10 @@ export default function Testimonials() {
         <div className="testimonials" id="testimonials">
 
             <div className="slides3">
-                <img src={one} alt="" id="imagePan2"/>
+                <img src={one} alt="" id="imagePan3"/>
                 <div className="buttons3">
-                    <button className="button3 left3" style={{ float: "left", }} onClick={() => { id--; changePic("imagePan2"); }}>⮜</button>
-                    <button className="button3 right3" style={{ float: "right", }} onClick={() => { id++; changePic("imagePan2"); }}>⮞</button>
+                    <button className="button3 left3" style={{ float: "left", }} onClick={() => { id--; changePic("imagePan3"); }}>⮜</button>
+                    <button className="button3 right3" style={{ float: "right", }} onClick={() => { id++; changePic("imagePan3"); }}>⮞</button>
                 </div>
             </div>
 

@@ -14,13 +14,13 @@ export default function Menu({ menuOpen, setMenuOpen }) {
                     <a href="#intro">Home</a>
                 </li>
                 <li>
-                    <a href="#works">My Projects!</a>
+                    <a href="#JavaScript">Java Script</a>
                 </li>
                 <li>
-                    <a href="#testimonials">Testimonials</a>
+                    <a href="#testimonials">Python</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact Me</a>
+                    <a href="#contact">Arduino</a>
                 </li>
             </ul>
             

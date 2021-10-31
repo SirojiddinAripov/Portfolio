@@ -13,7 +13,7 @@ export default function Intro() {
             <div className="row">
 
                 <div className="column">
-                    <div className="content" onClick={() => window.open('https://aripov-hangman.netlify.app/')}>
+                    <div className="content" onClick={() => window.location.href = "#JavaScript2"}>
                         <img src={hangman} alt="Hangman" style={{width: "100%"}}/>
                         <h3 >JS - The Hang Man Game</h3>
                     </div>
@@ -37,7 +37,7 @@ export default function Intro() {
             <div className="row">
 
                 <div className="column">
-                    <div className="content" onClick={() => window.open('https://aripov-todolist.netlify.app/')} >
+                    <div className="content" onClick={() => window.location.href = "#JavaScript3"} >
                         <img src={toDo} alt="toDo" style={{width: "100%"}}/>
                         <h3>JS - To Do list</h3>
                     </div>

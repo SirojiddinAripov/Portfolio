@@ -6,9 +6,11 @@
     user-select: none;
 }
 h1{
+    margin-left: 3%;
     color: white;
 }
 p{
+    margin-left: 3%;
     color: white;
     font-size: 170%;
 
@@ -16,12 +18,13 @@ p{
 .text{
     background-color: rgb(8, 166, 187);    
     height: 100%;
-    width: 500px;
+    width: 28%;
     display: flex;
     align-content: center;
     flex-direction: column;
     justify-content: center;
     z-index: 2;
+    transition: all 1s ease;
 }
 
 .slides{
@@ -76,7 +79,7 @@ p{
     img{
         z-index: 1;
         transition: all 0.2s ease-in-out;
-        width: fit-content;
+        width: 100%;
     }
 }
 
