@@ -20,7 +20,7 @@ export default function Intro() {
                 </div>
 
                 <div className="column">
-                    <div className="content" onClick={() => window.open('https://py3.codeskulptor.org/#user306_5hfTNbLq6tftjSY.py')}>
+                    <div className="content" onClick={() => window.location.href = "#JavaScript4"}>
                         <img src={cargo} alt="cargo" style={{width: "100%"}}/>
                         <h3>Python - Cargo</h3>
                     </div>
@@ -44,7 +44,7 @@ export default function Intro() {
                 </div>
 
                 <div className="column">
-                    <div className="content" onClick={() => window.open('https://py3.codeskulptor.org/#user306_1AfhOZrmJz6caoB_1.py')}>
+                    <div className="content" onClick={() => window.location.href = "#JavaScript5"}>
                         <img src={safeHouse} alt="safeHouse" style={{width: "100%"}}/>
                         <h3>Python - Safe House</h3>
                     </div>
@@ -53,7 +53,7 @@ export default function Intro() {
                 <div className="column">
                     <div className="content">
                         <img src={scorpo} alt="scorpo" style={{width: "100%"}}/>
-                        <h3>Arduino - 4 Legged Thing!</h3>
+                        <h3>Arduino - Party Bot!</h3>
                     </div>
                 </div>
                 <br />

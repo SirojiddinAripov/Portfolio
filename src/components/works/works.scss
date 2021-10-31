@@ -34,14 +34,14 @@ p{
 
     .buttons{
         height: 100%;
-        width: 73.8%;
-        z-index: 1;
+        width: 73%;
         display: flex;
         position: absolute;
         align-items: center;
         z-index: 4;
         justify-content: space-between;
         .button{
+            cursor: point;
             transition: all 0.3s ease;
             line-height: 110%;
             text-align: center;

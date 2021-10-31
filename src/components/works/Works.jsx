@@ -10,8 +10,8 @@ export default function Works() {
         <div className="works" id="JavaScript">
             <div className="text">
 
-                <input type = "none "style={{ zIndex:"-5", position: "absolute", right: "100%"}} onFocus={() => { id--; changePic("imagePan2"); }} id="JavaScript2" />
-                <input type = "none "style={{ zIndex:"-5", position: "absolute", right: "100%"}} onFocus={() => { id++; changePic("imagePan2"); }} id="JavaScript3" />
+                <input type = "none "style={{ zIndex:"-5", position: "absolute", right: "100%"}} onFocus={() => { id=0; changePic("imagePan2"); }} id="JavaScript2" />
+                <input type = "none "style={{ zIndex:"-5", position: "absolute", right: "100%"}} onFocus={() => { id=1; changePic("imagePan2"); }} id="JavaScript3" />
                 
                 <h1 id="title" style={{ textDecoration: "underline", cursor: "pointer" }} onClick={() => { window.open(link) }}>JavaScript Projects</h1>
                 <p id="info">HangMan, was one my first JavaScript projects, that I built following a tutorial to learn how to use JavaScript promises, to fetch data from external API. In this game, the external data is the DataBase with words. I expanded the web-app by adding more features like the keyboard, images and two-player mode.</p>
