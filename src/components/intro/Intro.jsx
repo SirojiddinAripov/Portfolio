@@ -9,25 +9,25 @@ import scorpo from '../../images/scorpo.gif'
 
 export default function Intro() {
     return (
-        <div className="intro" id="intro">
+        <div className="intro" id="Home">
             <div className="row">
 
                 <div className="column">
-                    <div className="content" onClick={() => window.location.href = "#JavaScript2"}>
+                    <div className="content" onClick={() => window.location.href = "#JavaScript1"}>
                         <img src={hangman} alt="Hangman" style={{width: "100%"}}/>
                         <h3 >JS - The Hang Man Game</h3>
                     </div>
                 </div>
 
                 <div className="column">
-                    <div className="content" onClick={() => window.location.href = "#JavaScript4"}>
+                    <div className="content" onClick={() => window.location.href = "#Python1"}>
                         <img src={cargo} alt="cargo" style={{width: "100%"}}/>
                         <h3>Python - Cargo</h3>
                     </div>
                 </div>
 
                 <div className="column">
-                    <div className="content" onClick={() => window.location.href = "#JavaScript6"} >
+                    <div className="content" onClick={() => window.location.href = "#Arduino1"} >
                         <img src={zombie} alt="zombie" style={{width: "100%"}}/>
                         <h3>Arduino - Hanging Zombie</h3>
                     </div>
@@ -37,21 +37,21 @@ export default function Intro() {
             <div className="row">
 
                 <div className="column">
-                    <div className="content" onClick={() => window.location.href = "#JavaScript3"} >
+                    <div className="content" onClick={() => window.location.href = "#JavaScript2"} >
                         <img src={toDo} alt="toDo" style={{width: "100%"}}/>
                         <h3>JS - To Do list</h3>
                     </div>
                 </div>
 
                 <div className="column">
-                    <div className="content" onClick={() => window.location.href = "#JavaScript5"}>
+                    <div className="content" onClick={() => window.location.href = "#Python2"}>
                         <img src={safeHouse} alt="safeHouse" style={{width: "100%"}}/>
                         <h3>Python - Safe House</h3>
                     </div>
                 </div>
 
                 <div className="column">
-                    <div className="content" onClick={() => window.location.href = "#JavaScript7"} >
+                    <div className="content" onClick={() => window.location.href = "#Arduino2"} >
                         <img src={scorpo} alt="scorpo" style={{width: "100%"}}/>
                         <h3>Arduino - Party Bot!</h3>
                     </div>

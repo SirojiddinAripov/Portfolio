@@ -11,16 +11,16 @@ export default function Menu({ menuOpen, setMenuOpen }) {
             <img src={avatar} height="310"/>                    
 
                 <li>
-                    <a href="#intro">Home</a>
+                    <a href="#Home">Home</a>
                 </li>
                 <li>
                     <a href="#JavaScript">JavaScript</a>
                 </li>
                 <li>
-                    <a href="#testimonials">Python</a>
+                    <a href="#Python">Python</a>
                 </li>
                 <li>
-                    <a href="#contact">Arduino</a>
+                    <a href="#Arduino">Arduino</a>
                 </li>
             </ul>
             

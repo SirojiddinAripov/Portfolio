@@ -17,7 +17,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                     
                     </div>
 
-                    <a href="#intro" className="logo">A R I P O V</a>
+                    <a href="#Home" className="logo">A R I P O V</a>
 
                 </div>
 

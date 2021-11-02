@@ -2,7 +2,7 @@ import React from 'react'
 import "./contact.scss"
 import one from '../../images/zombie.gif'
 import two from '../../images/zombie2.gif'
-import three from '../../images/4Leggo1.gif'
+import three from '../../images/scorpo.gif'
 
 let id = 0;
 let link = "https://aripov-hangman.netlify.app/";
@@ -10,12 +10,12 @@ let link = "https://aripov-hangman.netlify.app/";
 export default function Contact() {
 
     return (
-        <div className="testimonials" id="testimonials">
+        <div className="testimonials" id="Arduino">
 
             <div className="text3" style={{backgroundColor: "rgb(219, 16, 128)",}}>
 
-                <input type="none " style={{ zIndex: "-5", position: "absolute", right: "100%" }} onFocus={() => { id = 0; changePic("imagePan4"); }} id="JavaScript6" />
-                <input type="none " style={{ zIndex: "-5", position: "absolute", right: "100%" }} onFocus={() => { id = 2; changePic("imagePan4"); }} id="JavaScript7" />
+                <input type="none " style={{ zIndex: "-5", position: "absolute", right: "100%" }} onFocus={() => { id = 0; changePic("imagePan4"); }} id="Arduino1" />
+                <input type="none " style={{ zIndex: "-5", position: "absolute", right: "100%" }} onFocus={() => { id = 2; changePic("imagePan4"); }} id="Arduino2" />
 
                 <h1>Engineering Projects</h1>
                 <p id = "info3">This is a Hanging Zombie that was made by me along with my good friend Thaddeus Brockwell. This was made for a haunted house project for Engineering. The robot functions on an Arduino microcontroller, and uses pneumatics to pull itself up. In the final version we made it swing from side to side as well as scream. The robot tirggers as soon as someone walks by it. In the next slide you can see the final version.</p>

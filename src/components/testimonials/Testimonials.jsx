@@ -2,15 +2,13 @@ import React from 'react'
 import "./testimonials.scss"
 import one from '../../images/cargo1.gif'
 import two from '../../images/safeHouseDemo.gif'
-import three from '../../images/portal.png'
-import four from '../../images/ruiner.png'
 
 let id = 0;
 let link = "https://py3.codeskulptor.org/#user306_R0Gy8vv43d_0.py";
 
 export default function Testimonials() {
     return (
-        <div className="testimonials" id="testimonials">
+        <div className="testimonials" id="Python">
 
             <div className="slides3">
                 <img src={one} alt="" id="imagePan3" />
@@ -22,8 +20,8 @@ export default function Testimonials() {
 
             <div className="text3">
                 
-                <input type="none " style={{ zIndex: "-5", position: "absolute", right: "100%" }} onFocus={() => { id=0; changePic("imagePan3"); }} id="JavaScript4" />
-                <input type="none " style={{ zIndex: "-5", position: "absolute", right: "100%" }} onFocus={() => { id=1; changePic("imagePan3"); }} id="JavaScript5" />
+                <input type="none " style={{ zIndex: "-5", position: "absolute", right: "100%" }} onFocus={() => { id=0; changePic("imagePan3"); }} id="Python1" />
+                <input type="none " style={{ zIndex: "-5", position: "absolute", right: "100%" }} onFocus={() => { id=1; changePic("imagePan3"); }} id="Python2" />
 
                 <h1 id="title" style={{ textDecoration: "underline", cursor: "pointer" }} onClick={() => { window.open(link) }}>Python Projects</h1>
                 <p id = "info2" style={{ fontSize: "140%" }}>This is a Python Project was made using a SimpleGUI library. The project was made for a CincyHacks 2021 competition, by me, Matthew Barnett, and Joshua Kalsmeier. The project was completed in under 24 hours, and my basic game safe house shown in the next slide was used the baseline to develop this game. I was in charge of the game design, physics, design functions, and we all worked on developing a collision system. We ended up developing a game engine with our own physics and collisions. In the end we won the BestGame Category.</p>
