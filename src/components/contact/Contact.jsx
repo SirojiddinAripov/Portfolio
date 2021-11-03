@@ -47,7 +47,7 @@ let changePic = (imageID) => {
             document.querySelector("#" + imageID).src = one;
 
         } else if (id === 1) {
-            document.querySelector("#info3").innerHTML = "This is a Hanging Zombie that was made by me along with my good friend Thaddeus Brockwell. This was made for a haunted house project for Engineering. The robot functions on an Arduino microcontroller, and uses pneumatics to pull itself up. In the final version we made it swing from side to side as well as scream. The robot tirggers as soon as someone walks by it. In the next slide you can see the final version.";
+            document.querySelector("#info3").innerHTML = "This is a Hanging Zombie that was made by me along with my good friend Thaddeus Brockwell. This was made for a haunted house project for Engineering. The robot functions on an Arduino microcontroller, and uses pneumatics to pull itself up. In the final version we made it swing from side to side as well as scream. The robot tirggers as soon as someone walks by it.";
             document.querySelector("#" + imageID).src = two;
 
         }else if (id === 2){
